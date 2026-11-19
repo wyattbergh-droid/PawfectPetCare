@@ -3,7 +3,8 @@
 ### This is a  responsive single-page website for a fictional pet care/boarding business. Built using HTML, CSS, and Bootstrap 5.
 
 # Landing Page
-![Root-Landing-Page](imgs/landing-page.jpeg)
+![Root Landing Page](imgs/landing-page-rdme.jpeg)
+**[View the Live Site](https://ozarktechwebdev.com/fall26/wyattb/pawfectpetcare/index.html)**
 # Features
 | Section |  What it does |
 |---|---|
