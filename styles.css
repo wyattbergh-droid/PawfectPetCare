@@ -1,0 +1,55 @@
+/*Colors and fonts*/
+h1, h2, h3, p {
+    color: black;
+}
+
+body, html {
+    background-color: rgba(71, 144, 120, 0.342);
+    scroll-padding-top: 80px;
+}
+
+.navbar {
+    background-color: rgb(47, 189, 142);
+}
+
+.carousel-caption {
+    background-color: rgba(166, 183, 201, 0.548);
+    border-radius: 5px;
+    border: 2px solid aquamarine;
+}
+
+
+
+/*Mobile first design for imgs*/
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    object-position: center 70%;
+}
+/*Media query for medium browsers for responsive design*/
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+/*Media query for larger browsers for responsive design and window resizing*/
+@media (min-width: 1200px) {
+
+    #gallery {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .carousel-item img {
+        height: 550px;
+    }
+}
